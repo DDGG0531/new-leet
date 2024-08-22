@@ -3,8 +3,9 @@
   "type": "module",
   "scripts": {
     "test": "bun test",
-    "test-single-file": "bun test fileName.test.ts",
-    "test-single-file-with-web-debugger": "bun test fileName.test.ts --inspect-brk"
+    "ex:test-single-file": "npm run test -- {???}.test.ts",
+    "ex:test-single-file-with-web-debugger": "npm run test -- {???}.test.ts --inspect-brk",
+    "ex:test-single-file-failOnce": "npm run test -- {???}.test.ts --bail"
   },
   "devDependencies": {
     "@types/bun": "latest"

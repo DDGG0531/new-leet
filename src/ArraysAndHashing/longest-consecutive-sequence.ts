@@ -1,4 +1,4 @@
-export function longestConsecutive(nums: number[]): number {
+export default function longestConsecutive(nums: number[]): number {
   // 限制：O(n)
   // 🚩要找到最長的連續的數字
   // 手上有1就要找2，再找3，依此類推
