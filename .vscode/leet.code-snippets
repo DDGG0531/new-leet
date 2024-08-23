@@ -10,7 +10,7 @@
     "scope": "javascript,typescript",
     "prefix": "leet",
     "body": [
-      "import { describe, expect, test } from \"bun:test\";",
+      "import { describe, expect, test } from \"vitest:test\";",
       "import fn from \"./${1:fn}\";",
       "",
       "describe(\"${1:fn}\", () => {",

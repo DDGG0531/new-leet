@@ -2,15 +2,12 @@
   "name": "new-leet",
   "type": "module",
   "scripts": {
-    "test": "bun test",
-    "ex:test-single-file": "npm run test -- {???}.test.ts",
-    "ex:test-single-file-with-web-debugger": "npm run test -- {???}.test.ts --inspect-brk",
-    "ex:test-single-file-failOnce": "npm run test -- {???}.test.ts --bail"
+    "example": "npx vitest __myFileName__",
+    "test:all": "vitest",
+    "test": "vitest"
   },
   "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
   }
 }
