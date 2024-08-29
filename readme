@@ -1,0 +1,13 @@
+- 答題順序
+--- Part1: ArrayAndHashing
+- longest-consecutive-sequence
+- contains-duplicate
+- valid-anagram
+- two-sum
+- group-anagrams
+- top-k-frequent-elements
+- encode-and-decode-strings(leetcode沒開)
+- product-of-array-except-self(不能用除法的話偏難,pass)
+- valid-sudoku(思路正確,但棋盤index讓問題變得不直觀)
+--- Part2: TwoPointers
+- valid-palindrome

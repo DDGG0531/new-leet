@@ -19,7 +19,7 @@
       "  });",
       "",
       "  test(\"case2\", () => {",
-      "    expect(fn()).toBe(true);",
+      "    expect(fn()).toStrictEqual([]);",
       "  });",
       "});"
     ],
